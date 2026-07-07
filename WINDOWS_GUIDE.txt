@@ -1,0 +1,90 @@
+╔═══════════════════════════════════════════════════════════════╗
+║          PANDUAN CEPAT - WINDOWS USERS                        ║
+╚═══════════════════════════════════════════════════════════════╝
+
+🎯 LANGKAH PERTAMA (Cukup klik 1x!)
+
+   1. Klik 2x file → setup.bat
+   2. Ikuti instruksi di layar
+   3. Selesai!
+
+
+📁 FILE YANG PERLU DIKETIK/DIKLIK
+
+
+   ┌──────────────────────────────────────────┐
+   │ File          │ Fungsi                   │
+   ├──────────────────────────────────────────┤
+   │ setup.bat     │ ⚡ Setup pertama kali    │
+   │ START.bat     │ 🚀 Jalankan cepat        │
+   │ run.bat       │ 📋 Jalankan dengan menu │
+   │ install.bat   │ 📦 Install dependencies │
+   │ test.bat      │ 🧪 Jalankan test        │
+   │ uninstall.bat │ 🗑️  Uninstall           │
+   └──────────────────────────────────────────┘
+
+
+🚀 CARA PAKAI CEPAT
+
+
+   1. KLIK 2x: setup.bat
+      └─→ Ikuti instruksi, masukkan API Key
+   
+   2. KLIK 2x: START.bat
+      └─→ Agent langsung jalan!
+   
+   3. DI MODE INTERAKTIF:
+      
+      agent> add "Buat file hello.txt"
+      ✓ Task added!
+      
+      agent> status
+      📊 Lihat status
+      
+      agent> exit
+      └─→ Keluar
+
+
+📝 CARA TAMBAH SCHEDULE CEPAT
+
+
+   KLIK 2x: quick_schedule.bat
+   
+   Pilih tipe:
+   [1] Daily      - Setiap hari
+   [2] Interval   - Setiap X detik
+   [3] Weekly      - Setiap minggu
+   [4] Once       - Sekali saja
+
+
+❌ JIKA ADA ERROR
+
+
+   1. Pastikan Python sudah terinstall
+      → Buka CMD, ketik: python --version
+      
+   2. Jalankan ulang setup.bat
+   
+   3. Cek file agent.log untuk error details
+
+
+📚 DOKUMENTASI
+
+
+   INSTALL_WINDOWS.md   → Panduan instalasi lengkap
+   QUICKSTART.md        → Panduan cepat
+   README.md           → Dokumentasi penuh
+
+
+💡 TIPS
+
+
+   • Simpan folder ini di Desktop atau Documents
+   •API Key disimpan di file .env
+   • Cek agent.log jika ada masalah
+   • Jalankan test.bat untuk testing
+
+
+╔═══════════════════════════════════════════════════════════════╗
+║  🚀 SELAMAT MENGGUNAKAN SCHEDULED CONCURRENT AGENT!           ║
+╚═══════════════════════════════════════════════════════════════╝

@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  scheduled-agent:
+    build: .
+    container_name: scheduled-concurrent-agent
+    environment:
+      - LLM_API_KEY=${LLM_API_KEY}
+      - LLM_MODEL=${LLM_MODEL:-claude-sonnet-4-5-20250929}
+      - LLM_BASE_URL=${LLM_BASE_URL:-}
+    volumes:
+      - ./agent_workspace:/app/workspace
+      - ./agent.log:/app/agent.log
+    stdin_open: true
+    tty: true
+    restart: unless-stopped

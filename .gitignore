@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+env/
+.venv
+
+# Logs
+*.log
+agent.log
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Virtual environments
+venv/
+.venv/
+
+# Byte-compiled
+*.pyc
+*.pyo
+
+# Distribution
+dist/
+build/
+*.egg-info/
+
+# Workspace
+agent_workspace/
+
+# Temporary
+*.tmp
+*.bak
