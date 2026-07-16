@@ -1,5 +1,8 @@
 # 🕐 Scheduled Concurrent Agent
 
+> **Created by Antono**
+
+
 Agent AI yang dapat berjalan di komputer lokal, mengerjakan berbagai pekerjaan secara bersamaan (concurrent execution), dan dapat dijadwalkan (scheduled execution).
 
 Dibangun menggunakan **OpenHands SDK** - framework untuk membangun AI agent yang dapat menulis software.
