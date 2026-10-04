@@ -1,1 +1,32 @@
-Last updated: 2026-10-05 05:00:34 WIB
+# agentku
+
+
+
+## 📋 Overview
+
+This repository contains **29 files** and is built with the following technologies:
+
+Python, Docker
+
+## 🚀 Quick Start
+
+```bash
+pip install -r requirements.txt
+python main.py
+```
+
+## ✨ Features
+
+- 🐳 Docker support
+- 📝 Auto-generated documentation
+
+## 🛠️ Technologies
+
+Python, Docker
+
+## 📄 License
+
+MIT License
+
+---
+*Last updated: 2026-10-05 06:31:44 WIB*
